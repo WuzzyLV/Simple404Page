@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+*{
+    /* make pixel art sharp */
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFEE6D;
+}
+
+img {
+    width: 75%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #1D133A;
+    text-align: center;
+}
